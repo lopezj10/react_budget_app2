@@ -42,6 +42,15 @@ const App = () => {
                         <AllocationForm/>
                     </div>
                 </div>
+                <style>
+                    #currency {
+                        display: inline-block;
+                        width: 200px;
+                        height: 150px;
+                        background: lightgreen;
+                        color: #fff;
+                    }
+                </style>
             </div>
         </AppProvider>
     );
